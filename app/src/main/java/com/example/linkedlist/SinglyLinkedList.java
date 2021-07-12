@@ -1,10 +1,6 @@
 package com.example.linkedlist;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-public class SinglyLinkedList extends AppCompatActivity {
+public class SinglyLinkedList {
     public Node head;
 
     public SinglyLinkedList(Node head) {
@@ -36,12 +32,5 @@ public class SinglyLinkedList extends AppCompatActivity {
             System.out.println(n.value);
             n = n.next;
         }
-    }
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 }
